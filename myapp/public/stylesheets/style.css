@@ -1,8 +1,127 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+* {
+  font-family: 'Nova Square', cursive;
+ 
 }
 
-a {
-  color: #00B7FF;
+
+#img-div {
+  text-align: center;
+  float: center;
+  
+}
+#logo {
+  width: 15%;
+  height: 15%;
+  float: center;
+  padding-bottom: 10px;
+  position: relative;
+  top: 1px;
+  
+}
+ul {
+  
+  list-style-type: none;
+  float: left;
+  background-color: #8CC63F;
+  width: 100%;
+  padding-bottom: 8px; 
+}
+
+#first {
+  margin-left: 19%;
+}
+a, a:hover {
+  text-decoration: none;
+  float: left;
+  padding: 7px 50px 0px 90px;
+  color: black;
+  
+}
+h2 {
+  text-align: center;
+  font-family: 'Nova Square', cursive;
+  font-size: .8em;
+  padding: 1em;
+  margin-top: -1%;
+  
+}
+#search {
+  position: absolute;
+  margin-left: 4em;
+  right: 15px;
+  margin-top: 3px;
+}
+#recent {
+  position: absolute;
+  left: 75%;
+  
+  margin-top: 10%;
+}
+p{
+  text-align: center;
+}
+#top_blog {
+  displpay: inline-block;
+  width: 15%;
+}
+.navbar {
+  position: relative;
+  top: 50%;
+  
+}
+li {
+  display: inline;
+  
+}
+@media screen and (max-width:680px) {
+  a, a:hover, .nav-list, #nav {
+  text-decoration: none;
+  display: block;
+  color: black;
+
+}
+}
+.btn {
+ background-color: darkgrey;
+ position: absolute;
+ right: 1px;
+ margin-top: 3px;
+}
+a:hover {
+
+  
+}
+
+.navbar-fixed {
+  position: fixed;
+  top: 1%;
+}
+#right-align {
+  displpay: inline-block;
+  width: 15%;
+}
+#left-align {
+  displpay: inline-block;
+  width: 15%;
+}
+#left-align-two {
+  displpay: inline-block;
+  width: 15%;
+}
+
+#center {
+  displpay: inline-block;
+  width: 35%;
+
+}
+#sample {
+  width: 30%;
+  height: 30%;
+  
+}
+#top-photo {
+  width: 20%;
+  height: 20%;
+
 }
