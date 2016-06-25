@@ -52,15 +52,8 @@ h2 {
   right: 15px;
   margin-top: 3px;
 }
-#recent {
-  position: absolute;
-  left: 75%;
-  
-  margin-top: 10%;
-}
-p{
-  text-align: center;
-}
+
+
 #top_blog {
   displpay: inline-block;
   width: 15%;
@@ -98,26 +91,30 @@ a:hover {
   top: 1%;
 }
 #right-align {
-  displpay: inline-block;
-  width: 15%;
-}
+  float: right;
+  width: 200px;
+  margin-right: 0px;}
 #left-align {
-  displpay: inline-block;
-  width: 15%;
+  float: left;
+  width: 200px;
+  margin-right: 0px;
 }
 #left-align-two {
-  displpay: inline-block;
-  width: 15%;
+  float: left;
+  width: 200px;
+  margin-right: 0px;
 }
 
 #center {
-  displpay: inline-block;
+  float: left;
   width: 35%;
+  margin-left: 17%;
+  height: 35%;
 
 }
 #sample {
-  width: 30%;
-  height: 30%;
+  width: 100%;
+  height: 100%;
   
 }
 #top-photo {
