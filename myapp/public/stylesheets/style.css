@@ -122,3 +122,74 @@ a:hover {
   height: 20%;
 
 }
+.form {
+  position: fixed;
+  left: 16%;
+  top:10%;
+  background-color: darkgrey;
+  width: 70%;
+  height: auto;
+}
+#last-name {
+  text-align: left;
+  float: right;
+  margin-right:10%;
+  margin-top: 5%;
+  font-size: 2em
+}
+#first-name {
+  text-align: left;
+  float: left;
+  margin-left:10%;
+  margin-top: 5%;
+  font-size: 2em
+}
+#username {
+  text-align: left;
+  float: left;
+  margin-left:10%;
+  margin-top: 5%;
+  font-size: 2em;
+  width: 80%;
+}
+#email {
+  text-align: left;
+  float: left;
+  margin-left:10%;
+  margin-top: 5%;
+  font-size: 2em;
+  width: 80%;
+}
+#confirmemail {
+  text-align: left;
+  float: left;
+  margin-left:10%;
+  margin-top: 5%;
+  font-size: 2em;
+  width: 80%;
+
+}
+.sign-up {
+  text-align: center;
+}
+.input-all {
+  background-color: black;
+}
+.input-all:hover {
+  background-color: lightgrey;
+  color: black;
+}
+#submit-btn {
+  float: left;
+  margin-left:45%;
+  margin-top: 5%;
+  font-size: 2em;
+  color: black;
+  margin-bottom: 3%;
+}
+#sign-upbody {
+
+}
+#submit-btn:hover {
+	background-color: #77B6EA;
+}

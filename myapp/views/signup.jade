@@ -1,23 +1,31 @@
 extends layout
 
 block content
-	body
-		header
-			div#img-div 
-				img#logo(src='http://res.cloudinary.com/blak3nick/image/upload/v1466537603/BetaStrong_Logo_b2s18e.png')
-			h2#tagline Social media by lifters for lifters 
-		.navbar.navbar-default.navbar(role='navigation')
-			ul
-				li
-					a(href='/Get-App')#first Get the App
-				li
-					a(href='/discover') Discover
-				li
-					a(href='/who') Who are We?
-				li
-					a(href='/signup') Signup
-				li
-					input(type="text", name="title", placeholder='User/Hashtag')#search
-				li
-					button.btn.btn-sm.i.fa.fa-search
-		p Signup
+	body#sign-upbody
+		//- header
+		//- 	div#img-div 
+		//- 		img#logo(src='http://res.cloudinary.com/blak3nick/image/upload/v1466537603/BetaStrong_Logo_b2s18e.png')
+		//- 	h2#tagline Social media by lifters for lifters 
+		//- .navbar.navbar-default.navbar(role='navigation')
+		//- 	ul
+		//- 		li
+		//- 			a(href='/Get-App')#first Get the App
+		//- 		li
+		//- 			a(href='/discover') Discover
+		//- 		li
+		//- 			a(href='/who') Who are We?
+		//- 		li
+		//- 			a(href='/signup') Signup
+		//- 		li
+		//- 			input(type="text", name="title", placeholder='User/Hashtag')#search
+		//- 		li
+		//- 			button.btn.btn-sm.i.fa.fa-search
+		div.form
+			form
+			h1.sign-up Sign Up
+			input#first-name.input-all(type='text', placeholder='First Name')
+			input#last-name.input-all(type='text', placeholder='Last Name')
+			input#username.input-all(type='text', placeholder='Username')
+			input#email.input-all(type='text', placeholder='Email')
+			input#confirmemail.input-all(type='text', placeholder='Confirm Email')
+			button#submit-btn SUBMIT
