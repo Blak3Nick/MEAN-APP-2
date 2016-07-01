@@ -3,8 +3,18 @@
   font-family: 'Nova Square', cursive;
  
 }
+.who_we {
+	margin: 20px 0px;
+}
+
+.logo_div {
+	background-image: url("http://localhost:3000/images/AS_faded.png");
+	background-repeat: no-repeat;
+	background-position: 100% -1100%; 
 
 
+
+}
 #img-div {
   text-align: center;
   float: center;
