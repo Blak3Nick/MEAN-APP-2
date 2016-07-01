@@ -2,24 +2,24 @@ extends layout
 
 block content
 	body#sign-upbody
-		//- header
-		//- 	div#img-div 
-		//- 		img#logo(src='http://res.cloudinary.com/blak3nick/image/upload/v1466537603/BetaStrong_Logo_b2s18e.png')
-		//- 	h2#tagline Social media by lifters for lifters 
-		//- .navbar.navbar-default.navbar(role='navigation')
-		//- 	ul
-		//- 		li
-		//- 			a(href='/Get-App')#first Get the App
-		//- 		li
-		//- 			a(href='/discover') Discover
-		//- 		li
-		//- 			a(href='/who') Who are We?
-		//- 		li
-		//- 			a(href='/signup') Signup
-		//- 		li
-		//- 			input(type="text", name="title", placeholder='User/Hashtag')#search
-		//- 		li
-		//- 			button.btn.btn-sm.i.fa.fa-search
+		header
+			div#img-div 
+				img#logo(src='http://localhost:3000/images/AS_Logo.png')
+			h2#tagline Social media by lifters for lifters 
+		.navbar.navbar-default.navbar(role='navigation')
+			ul
+				li
+					a(href='/Get-App')#first Get the App
+				li
+					a(href='/discover') Discover
+				li
+					a(href='/who') Who are We?
+				li
+					a(href='/signup') Signup
+				li
+					input(type="text", name="title", placeholder='User/Hashtag')#search
+				li
+					button.btn.btn-sm.i.fa.fa-search
 		div.form
 			form
 			h1.sign-up Sign Up
